@@ -82,7 +82,7 @@ const app=express();
 
 
 app.use(cors({
-    // origin: 'https://frontend-c1ep.onrender.com',
+  
     origin:"https://dazzling-cendol-269c1c.netlify.app",
     credentials: true,
 }));
@@ -90,7 +90,7 @@ app.use(cors({
 
 
 const corsOptions={
-    // origin:"https://dazzling-cendol-269c1c.netlify.app",
+    
     origin:"https://dazzling-cendol-269c1c.netlify.app",
     methods:'GET, POST, PUT, DELETE',
     credentials:true,
