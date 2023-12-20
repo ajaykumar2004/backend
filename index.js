@@ -83,7 +83,7 @@ const app=express();
 
 app.use(cors({
   
-    origin:"https://dazzling-cendol-269c1c.netlify.app",
+    origin:"https://stupendous-gingersnap-6a7782.netlify.app",
     credentials: true,
 }));
 
@@ -91,7 +91,7 @@ app.use(cors({
 
 const corsOptions={
     
-    origin:"https://dazzling-cendol-269c1c.netlify.app",
+    origin:"https://stupendous-gingersnap-6a7782.netlify.app",
     methods:'GET, POST, PUT, DELETE',
     credentials:true,
     allowedHeaders:['Content-Type , Authorization'],
