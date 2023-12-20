@@ -90,8 +90,8 @@ app.use(cors({
 
 
 const corsOptions={
-    // origin:"https://frontend-c1ep.onrender.com/",
-    origin:"https://localhost:5173",
+    // origin:"https://dazzling-cendol-269c1c.netlify.app",
+    origin:"https://dazzling-cendol-269c1c.netlify.app",
     methods:'GET, POST, PUT, DELETE',
     credentials:true,
     allowedHeaders:['Content-Type , Authorization'],
