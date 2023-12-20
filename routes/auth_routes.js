@@ -9,7 +9,7 @@ const {test, registerUser,loginUser} = require('../controllers/authController')
 //<------------------------------REPLACE ORIGIN WITH IP FOR FRONT END------------------------------------------>
 router.use(
     cors({
-        origin: 'https://localhost:5173',
+        origin: 'https://dazzling-cendol-269c1c.netlify.app',
         credentials: true,
     })
 )
